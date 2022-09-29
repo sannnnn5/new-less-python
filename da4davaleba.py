@@ -100,7 +100,7 @@
 # else:
 #     "youlose"    
 
-
+# არასწორი ფორმულა
 # num2=int(input("num: "))
 # num3=int(input("num: "))
 # product1=(num1)%2
@@ -110,10 +110,10 @@
 
 
 
-num1=int(input("num: "))
-product1=(num1)//2 %6
-if product1 :
-      print (product1 +1 )
+# num1=int(input("num: "))
+# product1=(num1)//2 %6
+# if product1 :
+#       print (product1 +1 )
 
 
 
@@ -126,3 +126,28 @@ if product1 :
 
 # if product1 % 6:
 #     print (product1 +10 )
+
+
+# სწორი მაგალითი
+# num = int(input("Enter a number: "))
+# if (num % 2) == 1:
+
+#   num2 = int(input("Enter a number: "))
+# if (num2 % 2) == 1:      
+  
+
+#    print((num)+(num2))
+# else:
+#    print("{0} is Odd".format(num))
+
+
+num1=int(input("enter number: "))
+if (num1 % 2) == 1:
+ num2=int(input("enter number: "))
+if (num2 % 2) == 1:
+ num3=int(input("enter number: "))
+if (num3 % 2) == 1:
+      print((num1)+(num2)+(num3))
+else :
+      print("no")     
+
