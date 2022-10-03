@@ -141,13 +141,8 @@
 #    print("{0} is Odd".format(num))
 
 
-num1=int(input("enter number: "))
-if (num1 % 2) == 1:
- num2=int(input("enter number: "))
-if (num2 % 2) == 1:
- num3=int(input("enter number: "))
-if (num3 % 2) == 1:
-      print((num1)+(num2)+(num3))
-else :
-      print("no")     
-
+num = int(input("Enter a number: "))
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+if (num % 2) == 1:
+      print(num)
