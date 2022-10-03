@@ -140,9 +140,10 @@
 # else:
 #    print("{0} is Odd".format(num))
 
-
-num = int(input("Enter a number: "))
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter a number: "))
-if (num % 2) == 1:
-      print(num)
+# ტექსტში რაიმეს მოძებნა.ამ შემთხვევაში ა-სი
+# my_txt=input("enter txt: ")
+# ammonut_of_a=0
+# for char in my_txt:
+#     if char =="a":
+#       ammonut_of_a+=1
+# print("ther is {} 'a' in my_txt".format(ammonut_of_a))      

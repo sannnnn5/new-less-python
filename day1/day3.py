@@ -1,9 +1,30 @@
-from itertools import product
 
 
-num1=int(input("number1"))
-num2=int(input("number2"))
-product=num1*num2
-if product > 100:
-    print(product,"you are write")
-else: print("you are stupid")    
+num1=int(input("your number: "))
+num2=int(input("your number: "))
+# num3=int(input("your number: "))
+
+
+my_sum=int("0")
+
+
+if num1 %2==1:
+
+    my_sum+num1
+print(num1)
+
+
+
+
+if num2 %2==1:
+
+     my_sum+num2
+     print(num2)
+
+
+
+
+# if num3 %2==1:
+
+#     print(my_sum+num3)        
+# else:("no")    
