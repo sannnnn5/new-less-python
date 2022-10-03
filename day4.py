@@ -1,9 +1,7 @@
-num1=int(input("enter your lucky nomb: "))
-num2=int(input("enter your lucky simb: "))
-product=num1*num2
-
-
-if product >100:
-    print(product,"you are heppy")
-
-else:print("you lose")    
+# ტექსტში რაიმეს მოძებნა.ამ შემთხვევაში ა-სი
+# my_txt=input("enter txt: ")
+# ammonut_of_a=0
+# for char in my_txt:
+#     if char =="a":
+#       ammonut_of_a+=1
+# print("ther is {} 'a' in my_txt".format(ammonut_of_a))      
