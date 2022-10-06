@@ -128,22 +128,37 @@
 #     print (product1 +10 )
 
 
-# სწორი მაგალითი
-# num = int(input("Enter a number: "))
-# if (num % 2) == 1:
 
-#   num2 = int(input("Enter a number: "))
-# if (num2 % 2) == 1:      
-  
+# სწორი ფორმულა
+# num1=int(input("enter: "))
+# num2=int(input("enter: "))
+# num3=int(input("enter: "))
 
-#    print((num)+(num2))
-# else:
-#    print("{0} is Odd".format(num))
+# my_sum=0
 
-# ტექსტში რაიმეს მოძებნა.ამ შემთხვევაში ა-სი
-# my_txt=input("enter txt: ")
-# ammonut_of_a=0
-# for char in my_txt:
-#     if char =="a":
-#       ammonut_of_a+=1
-# print("ther is {} 'a' in my_txt".format(ammonut_of_a))      
+# if num1 %2==1:
+#   my_sum+=num1
+# if num2 %2==1:
+#   my_sum+=num2
+# if num3 %2==1:
+#   my_sum+=num3
+#   print(my_sum)    
+
+# მაგალითი
+
+# my_sentency=input("enter: ")
+# my_sentency2=input("enter 2: ")
+# sum_1=0
+# sum_2=0
+# for i in my_sentency:
+#    if i not in "aeiou":
+#      sum_1+=1
+
+# for i in my_sentency2:
+#    if i not in "aeiou":
+#      sum_2+=1
+# if sum_1>sum_2:
+#    print("my_sentency1-shi {} tanxmovania".format(sum_1))     
+# if sum_2>sum_1:
+#    print("my_sentency2-shi {} tanxmovania".format(sum_2))        
+
