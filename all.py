@@ -162,3 +162,24 @@
 # if sum_2>sum_1:
 #    print("my_sentency2-shi {} tanxmovania".format(sum_2))        
 
+
+# ინდექსის მოძებნა"რომელ ინდექსზეა ობიექტი'
+
+
+# a="aleksandre goguadze"
+
+
+
+# indexes=[]
+# for i in range(0, len(a)):
+#      if a [i] in ("a","e","i","o","u"):
+#         indexes.append(i)
+#      print(indexes,i)
+       
+# for b in a:
+#      if b in "aeiou":
+#          print(indexes,b)       
+
+
+
+
