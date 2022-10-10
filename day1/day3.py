@@ -4,7 +4,10 @@
 # y=int(input("enter numb: "))
 # y+=3
 # print(
-
-x=3
-y=17
-print(x /y)
+ 
+name="aleksandre goguadze"
+i=0
+while i<len(name):
+    if name[i] in "aeiou":
+        print(str(i)+name[i])
+    i+=1    

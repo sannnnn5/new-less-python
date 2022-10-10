@@ -182,4 +182,31 @@
 
 
 
+# x=0
+# for i in range(5):
+#     for j in range(4):
+#         for j in range(3):
+#          print(str(x)+ "sandro")
+#          x+=1
 
+
+# დავალება
+# my_list=["xinkali","mwvadi","qababi"]
+# price=["2","20","10"]
+# # print(my_list[0]+"_"+ price[0])
+# # print(my_list[1]+"_"+price[1])
+# # print(my_list[2]+"_"+price[2])
+# # print("{0} fasi {1} lari".format(my_list[0],price[0]))
+# # print("{0} fasi {1} lari".format(my_list[1],price[1]))
+# # print("{0} fasi {1} lari".format(my_list[2],price[2]))
+# print("{0}-fasi: {1} lari ,{2}-fasi: {3} lari, {4}-fasi: {5} lari,".format(my_list[0],price[0],my_list[1],price[1],my_list[2],price[2]))
+
+
+
+a="aleksandre goguadze"
+indexes=0
+for i in range(0, len(a)):
+     if a[i] in "aeiou":
+        print(str(indexes)+a[i])
+    indexes+=1    
+       
