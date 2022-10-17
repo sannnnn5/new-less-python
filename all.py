@@ -166,19 +166,15 @@
 # ინდექსის მოძებნა"რომელ ინდექსზეა ობიექტი'
 
 
+
 # a="aleksandre goguadze"
-
-
-
-# indexes=[]
+# indexes=0
 # for i in range(0, len(a)):
-#      if a [i] in ("a","e","i","o","u"):
-#         indexes.append(i)
-#      print(indexes,i)
-       
-# for b in a:
-#      if b in "aeiou":
-#          print(indexes,b)       
+#      if a [i] in "aeiou":
+        
+#       print(str(indexes)+a[i])
+#      indexes+=1        
+     
 
 
 
@@ -203,10 +199,17 @@
 
 
 
-a="aleksandre goguadze"
-indexes=0
-for i in range(0, len(a)):
-     if a[i] in "aeiou":
-        print(str(indexes)+a[i])
-    indexes+=1    
-       
+# მაქსიმალური რიცხვის ამოღება
+# a=[1,2,3,4,20,6,7,8,9]
+# max_num=a[0]
+# for score in a:
+#     if score>max_num:
+#         max_num=score
+# print(max_num)        
+
+
+#ფუნქციის შექმნა
+# def shekreba(num1,num2):
+#     print(num1+num2)
+# მაგალითი
+# shekreba(50,25)
