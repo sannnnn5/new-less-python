@@ -100,23 +100,6 @@
 
 
 
-# ინდექსის მოძებნა"რომელ ინდექსზეა ობიექტი'
-
-
-a="aleksandre goguadze"
-
-
-
-indexes=[]
-for e in range(0, len(a)):
-     
-     if a [e] in ("a","e","i","o","u"):
-        indexes.append(e)
-     print(indexes,e)
-for e in a: 
-    if e in "aeiou":
-         print(indexes,e)       
-
 
 
 

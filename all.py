@@ -98,14 +98,8 @@
 # if num3>100:
 #     print(num3)
 # else:
-#     "youlose"    
+#     print("youlose")    
 
-# არასწორი ფორმულა
-# num2=int(input("num: "))
-# num3=int(input("num: "))
-# product1=(num1)%2
-# product2=(num2)%2
-# product3=(num3)%2
 
 
 
@@ -213,3 +207,135 @@
 #     print(num1+num2)
 # მაგალითი
 # shekreba(50,25)
+
+# სორტირება
+# score=[20,10,56,89,54,82,90,97,56]
+
+# score.sort()
+# print(score)
+
+#მაქსიმალური რიცხვის ამოღება 2
+# score=[20,10,56,89,54,82,90,97,56]
+
+# max_num=score[0]
+
+# for num in score:
+#     if num>max_num:
+#         max_num=num
+# print(max_num)    
+
+
+
+#ფუნქციის შექმნის მაგალით
+# def good_day(name,day):
+#     print(name +" "+ "gisurveb karg" +" "+ str(day)+" "+"oqtombers")
+# names=["sandro","natia","saba","kato","mariami"]
+# for name in names:
+#     good_day(name,"7")
+
+
+
+# მინიმალური სიგრდზის ელემენტთან მიმართება
+# def pair_sum(arr1,arr2):
+#     for i in range(min([len(arr1),len(arr2)])):
+
+#      print(arr1[i]+arr2[i])
+
+
+# pair_sum([4,10,35],[30,75,89,91])
+
+
+# score=[20,10,56,89,54,82,90,97,56]
+
+# max_num=score[0]
+
+# for num in score:
+#     if num>max_num:
+#         max_num=num
+# print(max_num)    
+
+# score=[20,10,56,89,54,82,90,97,56]
+
+# max_num=score[0]
+
+# for num in score:
+#     if num>max_num:
+#         max_num=num
+# print(max_num)    
+
+# score=[20,10,56,89,54,82,90,97,56]
+
+# max_num=score[0]
+
+# for num in score:
+#     if num>max_num:
+#         max_num=num
+# print(max_num)    
+
+
+#სიის უკუმიმართულებით ამოტანა
+# student=["sandro","natia","saba","kato","mariami","nono"]
+# # new_arr=[]
+# # student[0]="aleksandre" #ეს ჩანაცვლებას აკეთებს
+# # i=len(student)
+# # while i>0:
+# #     new_arr.append(student[i-1])
+# #     i-=1
+# # print(new_arr)
+
+# def shekreba(num1,num2):
+#     print(num1*num2)
+
+#იგივე მაგალით სხვა მეთოდით
+# student=["sandro","natia","saba","kato","mariami","nono"]
+# print(student[::-1])
+
+
+
+# shekreba(95,95)    
+
+# scores=[20,30,40,50,60,21,31,41,51,61]
+
+
+
+# ფუნქციის შექმნა აუტომატურად დიდი რიცხვის გამოტანაზე სიიდან
+# def max_num(scores):
+#     max_n=scores[0]
+
+#     for score in scores:
+#         if score>max_n:
+#             max_n=score
+#     print(max_n)        
+
+
+# max_num([20,30,40,50,60,21,31,41,51,61])
+
+
+# რევერსიით ამოღება
+# n=["s","a","n","d","r","o"]
+# new_arr=[]
+# i=len(n)
+# while i>0:
+#     new_arr.append(n[i-1])
+#     i-=1
+# print(new_arr)
+
+
+# a="sandro"
+# print(a[::-1])
+
+
+# on="sandro"
+# result=""
+# for i in range(len(on)-1,-1,-1):
+#     result=result+on[i]
+# print(result)
+
+# student="sandro"
+# reverse=""
+# i=len(student)
+# while i>0:
+#     reverse=student[i-1]
+#     i-=1
+#     print(reverse)
+

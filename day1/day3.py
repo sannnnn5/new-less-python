@@ -42,8 +42,6 @@
 #           print("is digit")
 #      a= a[1:]     
 
-# for x in 1,2,3,4,5:
-#      print("a")
 
 # x=1
 # while x<=5:
@@ -59,13 +57,6 @@
 #      sum+=1
 
 
-
-# b="aleksandre"
-# s=0
-# for i in b:
-#      if i in "ae":
-#           print(s,i)
-#      s+=1
 
 
 
@@ -297,3 +288,54 @@
 # def shekreba(num1,num2):
 #     print(num1+num2)
 # shekreba(50,25)
+
+# სორტირება
+# score=[20,10,56,89,54,82,90,97,56]
+
+# score.sort()
+# print(score)
+
+#მაქსიმალური რიცხვის ამოღება 2
+# score=[20,10,56,89,54,82,90,97,56]
+
+# max_num=score[0]
+# for num in score:
+#     if num>max_num:
+#         max_num=num
+# print(max_num)    
+
+# score=[20,10,56,89,54,82,90,97,56]
+
+# repeat=0
+
+# max_num=score[0]
+# score.sort()
+# for num in score:
+#     if num>max_num:
+#         max_num=num
+#         repeat+=1
+#         print(repeat,str(max_num)+ " "+ str(score[repeat]))  
+         
+
+# score=[20,10,56,89,54,82,90,97,56]
+# num=  score[0]
+# repete=0
+# for scores in score:
+#     if scores<num:
+#         num=scores
+#         print( num)
+
+
+# my_list=["xinkali","mwvadi","qababi"]
+# price=[5,10,20]
+# i=0
+# while i<len(my_list):
+#   print(my_list[i]+str(price[i]))
+#   i+=1
+
+
+# def good_day(name,day):
+#     print(name +" "+ "gisurveb karg" +" "+ str(day)+" "+"oqtombers")
+# names=["sandro","natia","saba","kato","mariami"]
+# for name in names:
+#     good_day(name,"7")
