@@ -237,7 +237,7 @@
 # new_a=""
 # for i in range(len(a)):
 #     if i==2 or i==3:
-#         new_a += "x"
+#         new_a += "x"-სიმბოლოთი ხდება ჩანაცვლება
     
 #     else:
 #      new_a+=a[i]
@@ -277,53 +277,64 @@
 # player(48,90)        
 
 
-# davaleba saxlis
+
+
+
 # a="sandro"
-# new_a=[]
-# i=[-1]
-# i-0
-# while i<len(a):
-    
-#     i+=1
-# print(new_a)
- 
-
-n=["s","a","n","d","r","o"]
-new_arr=[]
-i=len(n)
-while i>0:
-    new_arr.append(n[i-1])
-    i-=1
-print(new_arr)
+# print(a[::-1])
 
 
-a="sandro"
-print(a[::-1])
+# on="sandro"
+# result=""
+# for i in range(len(on)-1,-1,-1):
+#     result=result+on[i]
+# print(result)
 
-
-on="sandro"
-result=""
-for i in range(len(on)-1,-1,-1):
-    result=result+on[i]
-print(result)
-
-student="sandro"
-reverse=""
-i=len(student)
-while i>0:
-    reverse=student[i-1]
-    i-=1
-    print(reverse)
+# student="sandro"
+# reverse=""
+# i=len(student)
+# while i>0:
+#     reverse=student[i-1]
+#     i-=1
+#     print(reverse)
 
 
 
+# a=int(input("  : "))
+# for x in range(1,a):
+#     if x%3==0 and x%5==0:
+#         print(x,"orive")
+#     elif x%3==0:
+#         print(x,"3 ze")
+#     elif x%5==0:
+#         print(x,"5 ze")        
 
-# student=["sandro","natia","saba","kato","mariami","nono"]
-# # new_arr=[]
-# # student[0]="aleksandre" #ეს ჩანაცვლებას აკეთებს
-# # i=len(student)
-# # while i>0:
-# #     new_arr.append(student[i-1])
-# #     i-=1
-# # print(new_arr)
+
+
+# string='world'
+# new=''
+# i=len(string)
+# while i>0:
+#         new=new+string[i-1]
+        
+#         i-=1
+# print(new)
+   
+# string="world"
+# string=True
+# if string==True:
+#     print("yes")
+# else:print("no")
+
+
+
+
+arr=[-5,-8,-4,5,85,96,5,4,6,2]
+sum=0
+for number in arr:
+    if number>0:
+        sum+=number
+print(sum)
+
+
 

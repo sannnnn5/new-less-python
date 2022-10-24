@@ -339,3 +339,32 @@
 #     i-=1
 #     print(reverse)
 
+# დადებითი რიცხვების ჯამის ამოღება
+# arr=[-5,-8,-4,5,85,96,5,4,6,2]
+# sum=0
+# for number in arr:
+#     if number>0:
+#         sum+=number
+# print(sum)
+
+
+
+
+# st="sandro"
+# new_st=""
+# i=len(st)
+# while i>0:
+#     new_st+=st[i-1]
+#     i-=1
+# print(new_st)
+
+
+
+isum_=0
+isum_m=0
+for i in range(0,20):
+    n=2**2
+    isum_+=n
+    isum_m=isum_**2
+    isum_+=isum_m
+    print(isum_,isum_m)
